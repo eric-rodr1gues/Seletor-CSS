@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html, body{
+    height: 100%;
+}
+
+body{
+    background-color: rgb(1, 9, 15);
+}
+
+#surf{
+    filter: brightness(50%);
+    width: 30%;
+    height: 50%;
+    margin: 0 auto;
+    position: absolute;
+    top: 42%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: -1;
+}
+
+.height{
+    position: relative;
+    height: 1000px;
+}
+
+#text{
+    color: rgb(240, 235, 241);
+    text-align: center;
+    z-index: 99;
+    margin: 0 auto;
+    position: absolute;
+    top: 42%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    letter-spacing: 0.7rem;
+}
+
+#subtext{
+    color: rgb(240, 235, 241);
+    letter-spacing: 0.7rem;
+    text-align: center;
+    margin: 0 auto;
+    position: absolute;
+    top: 47%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#chama{
+    margin: 0 auto;
+    position: absolute;
+    top: 58%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#prata{
+    color: rgb(240, 235, 241);
+    letter-spacing: 0.2rem;
+    margin: 0 auto;
+    position: absolute;
+    top: 4.5%;
+    left: 5.5%;
+    transform: translate(-50%,-50%);
+}
+
+#barra{
+    margin: 0 auto;
+    position: absolute;
+    top: 5%;
+    left: 97%;
+    transform: translate(-50%,-50%);
+}
